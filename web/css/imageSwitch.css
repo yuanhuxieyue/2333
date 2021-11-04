@@ -1,0 +1,27 @@
+#myCarousel{
+    width: 100%;
+}
+#myCarousel .carousel-inner>.item>img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#myCarousel .carousel-inner>.item>.carousel-caption a {
+    color: azure;
+    font-family: simsun;
+}
+#myCarousel .carousel-inner>.item>.carousel-caption a:hover {
+    color: greenyellow;
+}
+#myCarousel .carousel-inner>.item>.carousel-caption a:active {
+    color: gold;
+}
+#myCarousel .carousel-inner>.item>.carousel-caption span{
+    display: none;background: none;
+}
+#myCarousel .carousel-inner>.item>.carousel-caption:hover span{
+    display:block;top:228px;left:302px; width:600px; height:600px; relative:absolute;padding:10px;
+    font-family: simsun;
+    margin: 0px auto;
+    border:1px #e1f9e9 solid
+}
