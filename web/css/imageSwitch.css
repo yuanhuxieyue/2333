@@ -1,27 +1,65 @@
-#myCarousel{
+#myCarousel {
     width: 100%;
-}
-#myCarousel .carousel-inner>.item>img {
+  }
+  #myCarousel .carousel-inner > .item > img {
     display: block;
-    width: 100%;
-    height: auto;
-}
-#myCarousel .carousel-inner>.item>.carousel-caption a {
-    color: azure;
+    width: auto;
+    height: 700px;
+  }
+  #myCarousel .carousel-inner > .item > .carousel-caption a {
+    color: #fbffd3;
     font-family: simsun;
-}
-#myCarousel .carousel-inner>.item>.carousel-caption a:hover {
+    
+  }
+  #myCarousel .carousel-inner > .item > .carousel-caption a:hover {
     color: greenyellow;
-}
-#myCarousel .carousel-inner>.item>.carousel-caption a:active {
+  }
+  #myCarousel .carousel-inner > .item > .carousel-caption a:active {
     color: gold;
-}
-#myCarousel .carousel-inner>.item>.carousel-caption span{
-    display: none;background: none;
-}
-#myCarousel .carousel-inner>.item>.carousel-caption:hover span{
-    display:block;top:228px;left:302px; width:600px; height:600px; relative:absolute;padding:10px;
-    font-family: simsun;
+  }
+  #myCarousel .carousel-inner > .item > .carousel-caption span {
+    /* display: none;
+    background: none; */
+    display: block;
+    top: 228px;
+    left: 302px;
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    font-family: SimHei;
+    font-size:large;
     margin: 0px auto;
-    border:1px #e1f9e9 solid
-}
+    color: #fbffd3;  
+    font-weight: bold;
+  }
+  /* #myCarousel .carousel-inner > .item > .carousel-caption:hover span {
+    display: block;
+    top: 228px;
+    left: 302px;
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    font-family: simsun;
+    font-size: xx-large;
+    margin: 0px auto;
+    color: #fbffd3;
+    border: 1px #e1f9e9 solid;
+  }*/
+  
+  .period{
+      font-size:xx-large;
+      font-weight: bold;
+      font-family: SimHei;
+  
+  }
+  
+  .periodPhoto{
+      width: 100%;
+  }
+  
+  .carousel-indicators .active{
+      width: 12px;
+      height: 12px;
+      margin: 0;
+      background-color: #6FA680;
+  }
